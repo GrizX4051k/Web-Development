@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development Projects | Manish</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="brand">
+        <span class="brand-logo">M</span>
+        <div class="brand-text">
+          <h1>Web Development Projects</h1>
+          <p>by Manish Pratap Choudhary (@GrizX4051k)</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="nav-chip nav-chip--active" data-filter="all">All</button>
+        <button class="nav-chip" data-filter="clone">Clones</button>
+        <button class="nav-chip" data-filter="layout">Layouts</button>
+        <button class="nav-chip" data-filter="game">Games</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>
+          A curated set of frontend projects showcasing my HTML, CSS and JavaScript skills –
+          from responsive layouts to UI clones and small interactive experiences.
+        </p>
+        <p class="intro-sub">
+          Each card links to a separate project built with clean structure and reusable patterns.
+        </p>
+      </section>
+
+      <section class="projects" id="projects">
+        <!-- Example project cards – update hrefs and tags as needed -->
+        <article class="project-card" data-tags="clone">
+          <h2>Netflix Clone</h2>
+          <p>A responsive landing page inspired by Netflix, focusing on layout, typography and hover effects.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">Responsive</span>
+          </div>
+          <a href="netflix-clone/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="clone">
+          <h2>Spotify Clone</h2>
+          <p>A static Spotify‑style UI with focus on grids, cards and reusable components.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <a href="spotify-clone/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="clone">
+          <h2>Myntra Clone</h2>
+          <p>E‑commerce style layout practicing product grids, filters and consistent spacing.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+          </div>
+          <a href="myntra-clone/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="layout">
+          <h2>Blog Template (Responsive)</h2>
+          <p>Responsive blog template focusing on typography, spacing and mobile‑first design.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">Responsive</span>
+          </div>
+          <a href="blog-template-responsive/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="layout">
+          <h2>Image Grid Layout</h2>
+          <p>Modern image grid using CSS grid/flexbox to practice layout composition.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+          </div>
+          <a href="image-grid-responsive/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="layout">
+          <h2>Gym Website</h2>
+          <p>Landing page for a gym with hero sections, pricing and call‑to‑action blocks.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <a href="gym-website/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="layout">
+          <h2>Food Delivery Landing Page</h2>
+          <p>Food delivery themed landing page focusing on color, imagery and CTA placement.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+          </div>
+          <a href="food-delivery/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="layout">
+          <h2>Responsive Navbar</h2>
+          <p>A responsive navigation component with a mobile menu, built for reuse in other projects.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <a href="responsive-navbar-design-main/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+
+        <article class="project-card" data-tags="game">
+          <h2>Dragon Game (JavaScript)</h2>
+          <p>A simple browser game to practice DOM events, game loops and basic collision logic.</p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <a href="dragon-game-javascript/" class="project-link" target="_blank" rel="noreferrer">
+            View project
+          </a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Built with HTML, CSS and a bit of vanilla JS. More projects coming as I level up towards full‑stack and mobile development.
+      </p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
