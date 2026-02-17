@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopZone - E-Commerce Store</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="bg-primary text-white text-center py-4">
+    <h1>ShopZone</h1>
+    <nav class="d-flex justify-content-center mt-3">
+      <input type="text" id="search-bar" class="form-control w-25" placeholder="Search products...">
+      <button class="btn btn-light mx-2" onclick="searchProducts()">🔍 Search</button>
+      <button class="btn btn-light mx-2" data-toggle="modal" data-target="#wishlistModal" onclick="viewWishlist()">❤️ Wishlist</button>
+      <button class="btn btn-light mx-2" data-toggle="modal" data-target="#cartModal" onclick="viewCart()">🛒 Cart</button>
+      <button class="btn btn-light mx-2" data-toggle="modal" data-target="#orderHistoryModal" onclick="viewOrderHistory()">📜 Order History</button>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <!-- Filter Section -->
+    <section id="filter-section">
+      <h2 class="mb-4">Product Catalog</h2>
+      <div id="filters" class="d-flex justify-content-between">
+        <div class="form-group">
+          <label for="category-filter">Category</label>
+          <select id="category-filter" class="form-control" onchange="filterProducts()">
+            <option value="all">All</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <option value="home">Home</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="price-filter">Max Price</label>
+          <input type="range" id="price-filter" class="form-control-range" min="0" max="500" value="500" oninput="filterProducts()">
+          <span id="price-display">$500</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section id="product-catalog">
+      <div id="products" class="row"></div>
+    </section>
+  </main>
+
+  <!-- Wishlist Modal with Move to Cart Button -->
+  <div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="wishlistModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="wishlistModalLabel">Wishlist</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body" id="wishlistItems">No items in wishlist.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart Modal -->
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cartModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body" id="cartItems">No items in cart.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="checkout()">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Order History Modal -->
+<div class="modal fade" id="orderHistoryModal" tabindex="-1" aria-labelledby="orderHistoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="orderHistoryModalLabel">Order History</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body" id="orderHistoryItems">No orders found.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" onclick="clearOrderHistory()">Clear Order History</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

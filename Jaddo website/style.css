@@ -1,0 +1,116 @@
+
+header {
+
+    display: flex;
+    margin-top: 2%;
+    
+
+}
+
+
+.Logoplaceholder {
+
+    width: 30%;
+    display: inline-block;
+    margin-left: 10%;
+    height: auto;
+
+    
+
+
+}
+
+.Logo{
+
+    width: 115px;
+    height: 38px;
+
+}
+
+.nav {
+
+    
+    color: black;
+    display: flex;
+
+
+}
+
+.NAVB{
+
+    margin-right: 80px;
+    
+
+
+
+}
+
+
+.NAVB:hover{
+
+    text-decoration: underline;
+
+}
+
+a{
+
+    color: black;
+    text-decoration: none;
+}
+
+.Head1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e4735c;
+    display: flex;
+    padding: 10%;
+    padding-bottom: 0%;
+
+
+}
+
+.head2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: flex;
+    color: #181e4b;
+    width: 557px;
+    font-size: 40px;
+    padding-left: 194px;
+
+
+}
+
+.Desc{
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 375px;
+    padding-left: 197px;
+    line-height: 25px;
+
+}
+
+
+.MoreB{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    width: 80%;
+    padding-top:1% ;
+    margin: auto;
+    height: auto;
+}
+
+span{
+
+    color: white ;
+    padding: 1%;
+    background-color: #e4735c;
+    border-radius: 10px;
+    
+    
+
+}
+

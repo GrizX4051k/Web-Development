@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  main {
+    max-width: 1200px;
+  }
+  
+  #products .product {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  #products .product:hover {
+    transform: scale(1.05);
+  }
+  
+  #price-display {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  

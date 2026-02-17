@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "electronics",
+      "price": 150,
+      "image": "headphones.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Cotton T-Shirt",
+      "category": "clothing",
+      "price": 25,
+      "image": "tshirt.jpg",
+      "rating": 4.0
+    },
+    {
+      "id": 3,
+      "name": "Blender",
+      "category": "home",
+      "price": 80,
+      "image": "blender.jpg",
+      "rating": 4.2
+    }
+  ]
+  

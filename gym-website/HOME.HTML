@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym site</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('pexels-leon-ardho-1552242.jpg');
+            color: white;
+
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 34px;
+            top: 7px;
+
+        }
+
+        .left img {
+            width: 90px;
+            height: 70px;
+            filter: invert(100%);
+
+        }
+
+        .left div {
+
+            text-align: center;
+            display: flex;
+            float: right;
+            padding: 2.8px 2px;
+            font-weight: bolder;
+
+            font-size: 18px;
+            font-family: 'Bungee Spice', cursive;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 3px 430px;
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 16px;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            list-style: none;
+            display: inline-block;
+            width: 800px;
+        }
+
+        .navbar li {
+            float: left;
+            font-size: 19px;
+            font-family: 'Anton';
+            cursor: pointer;
+            padding: 10px 30px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+
+
+        }
+
+        button a:hover {
+            color: wheat !important;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+
+        }
+
+        .btn {
+            margin: 3px 6px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 8px;
+            padding: 5px 12px;
+            font-size: 15px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-family: 'Anton';
+            cursor: pointer;
+            filter: drop-shadow(0px 2px 5px white);
+
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            color: wheat !important;
+
+        }
+
+        .sc:hover {
+            color: wheat !important;
+
+        }
+
+        footer {
+            background-color: black;
+
+            border-top: 2px solid red;
+            text-align: center;
+            margin-top: 840px;
+            padding: 47px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="gym logo">
+            <div>
+                <h3>The Gym</h3>
+            </div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="HOME.HTML" class="active sc">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact us.html">Contact US</a></li>
+            </ul>
+        </div>
+        <!-- rightbox for button -->
+        <div class="right">
+            <button class="btn">
+                <a href="login.html">Login now</a>
+            </button>
+            <button class="btn">
+                <a href="appointment.html"> Book an appointment</a>
+            </button>
+        </div>
+    </header>
+    <!--Footer starts here-->
+    <footer>
+        <div class="fot">
+            &copy; 2021 TheGym All rights reserved.<br />
+            Designed by : MANISH
+
+        </div>
+    </footer>
+</body>
+
+</html>

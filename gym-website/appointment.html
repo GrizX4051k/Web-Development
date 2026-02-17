@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym site</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('pexels-loi-bui-trong-17227606.jpg');
+            color: white;
+
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 34px;
+            top: 7px;
+
+        }
+
+        .left img {
+            width: 90px;
+            height: 70px;
+            filter: invert(100%);
+
+        }
+
+        .left div {
+
+            text-align: center;
+            display: flex;
+            float: right;
+            padding: 2.8px 2px;
+            font-weight: bolder;
+
+            font-size: 18px;
+            font-family: 'Bungee Spice', cursive;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 3px 430px;
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 16px;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            list-style: none;
+            display: inline-block;
+            width: 800px;
+        }
+
+        .navbar li {
+            float: left;
+            font-size: 19px;
+            font-family: 'Anton';
+            cursor: pointer;
+            padding: 10px 30px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+
+
+        }
+
+        button a:hover {
+            color: wheat !important;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+
+        }
+
+        .btn {
+            margin: 3px 6px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 8px;
+            padding: 5px 12px;
+            font-size: 15px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-family: 'Anton';
+            cursor: pointer;
+            filter: drop-shadow(0px 2px 5px white);
+
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            color: wheat !important;
+
+        }
+
+        .sc:hover {
+            color: wheat !important;
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: -95px 435px;
+            padding: 101px 65px;
+            width: 40%;
+            border-radius: 30px;
+            background: rgba(20, 21, 20, 0.32);
+        }
+
+        .o {
+            display: inline;
+            text-align: center;
+            font-size: 20px;
+            text-shadow: 2px 2px red;
+
+
+        }
+
+        .form-group input,
+        .g {
+            outline: none;
+            font-family: Arial, Helvetica, sans-serif;
+            border-style: none;
+            border: none;
+            letter-spacing: 1px;
+            padding: 12px 15px;
+            margin-bottom: 16px;
+            width: 100%;
+            color: black;
+            box-sizing: border-box;
+            border-bottom: 2px solid red;
+            box-shadow: 0px 4px 7px rgb(10, 6, 6);
+        }
+
+        .form-group input:focus {
+            border: 3px solid #555;
+        }
+
+        .y {
+            margin: 37px 9px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    padding: 6px 22px;
+    font-size: 25px;
+    border: 2px solid grey;
+    border-radius: 2px;
+    font-family: 'Anton';
+    margin-bottom: -94px;
+
+        }
+
+        .y:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            color: rgb(211, 181, 125) !important;
+        }
+        footer {
+            background-color: black;
+
+            border-top: 2px solid red;
+            text-align: center;
+            margin-top: 150px;
+            padding: 47px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="gym logo">
+            <div>
+                <h3>The Gym</h3>
+            </div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="HOME.HTML" class="active sc">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact us.html">Contact US</a></li>
+            </ul>
+        </div>
+        <!-- rightbox for button -->
+        <div class="right">
+            <button class="btn">
+                <a href="login.html">Login now</a>
+            </button>
+            <button class="btn">
+                <a href="appointment.html"> Book an appointment</a>
+            </button>
+        </div>
+
+    </header>
+    <div class="o">
+        <h1>Fitness Appointment Form</h1>
+    </div>
+    <div class="container">
+
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group"> <input type="text" placeholder="Email"></div>
+
+            <div class="form-group"><input type="text" placeholder="contact Number"></div>
+            <select name="" id="" placeholder="select classes" class="g" required>
+                <option value="yoga">Select Class</option>
+                <option value="yoga">yoga</option>
+                <option value="yoga">gym</option>
+                <option value="yoga">gym+cardio</option>
+            </select>
+            <div class="form-group"> <input type="date"></div>
+            <div class="form-group"> <input type="time"></div>
+            <div><textarea name="" id="" cols="90" rows="10" placeholder="Any special requests? (optional)"></textarea>
+            </div>
+            <input type="submit" class="y"></input>
+            <input type="reset" class="y"></input>
+    </div>
+
+
+    </form>
+    </div>
+    <footer>
+        <div class="fot">
+            &copy; 2021 TheGym All rights reserved.<br />
+            Designed by : MANISH
+
+        </div>
+    </footer>
+</body>
+
+</html>
