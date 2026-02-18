@@ -54,16 +54,42 @@
 
     <main>
       <section class="intro">
-        <p>
-          <h1>Web Frontend Projects – Portfolio by GrizX</h1>
-          A curated collection of my frontend projects – landing pages, responsive layouts, UI clones and small JavaScript experiments.
-        </p>
-        <p class="intro-sub">
-          Each card links to a standalone project folder inside this repository, deployed together on GitHub Pages.
-        </p>
-      </section>
+  <h1 class="intro-title">Web Frontend Projects – Portfolio by GrizX</h1>
+  <p>
+    A curated collection of my frontend projects – landing pages, responsive layouts,
+    UI clones, small JavaScript experiments, and my Matrix‑style Linux Lab site.
+  </p>
+  <p class="intro-sub">
+    Each card links to a standalone project folder inside this repository or to a related repo,
+    all deployed together on GitHub Pages.
+  </p>
+</section>
+
 
       <section class="projects" id="projects">
+                <!-- linux-lab-site -->
+        <article class="project-card" data-tags="game">
+          <h2>Linux Lab (Matrix‑Style)</h2>
+          <p>
+            An interactive Linux lab site with a Matrix‑style binary background, skill progress bars
+            and a place to practice commands and track history.
+          </p>
+          <div class="project-meta">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+            <span class="badge">Linux</span>
+          </div>
+          <a
+            href="https://grizx4051k.github.io/linux-lab-site/"
+            class="project-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Linux Lab
+          </a>
+        </article>
+
         <!-- netflix-clone -->
         <article class="project-card" data-tags="clone">
           <h2>Netflix Clone</h2>
@@ -199,6 +225,63 @@
         </article>
       </section>
     </main>
+      <section class="contact-feedback">
+        <div class="contact-card">
+          <h2>Contact & Feedback</h2>
+          <p class="contact-text">
+            Found a bug, have an idea, or want to say hi? Drop a quick note here.
+          </p>
+
+          <div class="contact-actions">
+            <a
+              href="mailto:money4051k@gmail.com"
+              class="contact-pill"
+            >
+              Email Manish
+            </a>
+            <a
+              href="https://github.com/GrizX4051k/Web-Development/issues"
+              class="contact-pill contact-pill--accent"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github Issues
+            </a>
+          </div>
+
+          <form
+            class="feedback-form"
+            id="feedback-form"
+            action="https://formspree.io/f/mgolzppn"
+            method="POST"
+          >
+            <label class="feedback-label">
+              Your message
+              <textarea
+                name="message"
+                rows="3"
+                placeholder="Share feedback, ideas, or report an issue..."
+                required
+              ></textarea>
+            </label>
+
+            <label class="feedback-label">
+              Optional email (for reply)
+              <input
+                type="email"
+                name="email"
+                placeholder="you@example.com"
+              />
+            </label>
+
+            <p class="feedback-limit-msg" id="feedback-limit-msg"></p>
+
+            <button type="submit" class="feedback-button">
+              Send feedback
+            </button>
+          </form>
+        </div>
+      </section>
 
     <footer class="footer">
       <p>

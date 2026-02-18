@@ -139,11 +139,131 @@ body {
 }
 
 /* Projects grid */
+.contact-feedback {
+  margin-top: 28px;
+}
+
+.contact-card {
+  background: radial-gradient(circle at top left, #111827 0, #020617 70%);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: var(--shadow-soft);
+  padding: 18px 18px 16px;
+}
+
+.contact-card h2 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.contact-text {
+  margin: 0 0 12px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.contact-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  transition: background 0.16s ease-out, border-color 0.16s ease-out, transform 0.16s ease-out;
+}
+
+.contact-pill:hover {
+  background: rgba(30, 64, 175, 0.4);
+  border-color: rgba(129, 140, 248, 0.9);
+  transform: translateY(-1px);
+}
+
+.contact-pill--accent {
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  color: #eef2ff;
+  border-color: transparent;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.feedback-form textarea,
+.feedback-form input[type="email"] {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 10px;
+  border: 1px solid rgba(55, 65, 81, 0.9);
+  padding: 7px 9px;
+  font-size: 0.85rem;
+  color: #e5e7eb;
+  outline: none;
+  resize: vertical;
+}
+
+.feedback-form textarea:focus,
+.feedback-form input[type="email"]:focus {
+  border-color: rgba(129, 140, 248, 0.9);
+  box-shadow: 0 0 0 1px rgba(129, 140, 248, 0.5);
+}
+
+.feedback-form textarea::placeholder,
+.feedback-form input[type="email"]::placeholder {
+  color: #6b7280;
+}
+
+.feedback-button {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 7px 14px;
+  border-radius: var(--radius-full);
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #e5edff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  box-shadow: var(--shadow-subtle);
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out, filter 0.15s ease-out;
+}
+
+.feedback-button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+}
+
+.feedback-limit-msg {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #f97316; /* orange warning */
+}
 
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
+  gap: 18px;
   margin-top: 8px;
 }
 
