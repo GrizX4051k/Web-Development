@@ -11,7 +11,7 @@ This repo is my space for practicing and building **modern frontend** projects �
 
 <p align="center">
   <img
-    src="https://github-readme-stats-five-delta-54.vercel.app/api/top-langs/?username=GrizX4051k&layout=compact&langs_count=6&theme=radical&hide=c,powershell,shell"
+    src="https://github-readme-stats-five-delta-54.vercel.app/api/top-langs/?username=GrizX4051k&layout=compact&langs_count=6&theme=radical&hide=c,powershell,shell,typescript"
     alt="Top web languages"
   />
 </p>
@@ -173,5 +173,6 @@ If you’re browsing this as a recruiter or engineer:
 - You can open any folder and quickly understand what it is, why it exists, and how to run it.
 
 Suggestions, refactors, or ideas for new mini‑projects are always welcome – open an issue or PR and I’ll gladly take a look.
+
 
 
