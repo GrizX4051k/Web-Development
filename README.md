@@ -8,12 +8,14 @@ This repo is my space for practicing and building **modern frontend** projects �
     alt="GitHub stats for GrizX4051k"
   />
 </p>
+
 <p align="center">
   <img
-    src="https://github-readme-stats-five-delta-54.vercel.app/api/top-langs/?username=GrizX4051k&layout=compact&langs_count=10&theme=radical"
-    alt="Top languages"
+    src="https://github-readme-stats-five-delta-54.vercel.app/api/top-langs/?username=GrizX4051k&layout=compact&langs_count=6&theme=radical&hide=c,powershell,shell"
+    alt="Top web languages"
   />
 </p>
+
 <p align="center">
   <a href="https://github.com/GrizX4051k/Web-Development">
     <img
@@ -172,4 +174,5 @@ If you’re browsing this as a recruiter or engineer:
 - You can open any folder and quickly understand what it is, why it exists, and how to run it.
 
 Suggestions, refactors, or ideas for new mini‑projects are always welcome – open an issue or PR and I’ll gladly take a look.
+
 
