@@ -4,14 +4,14 @@ This repo is my space for practicing and building **modern frontend** projects �
 
 <p align="center">
   <img
-    src="https://github-readme-stats-five-delta-54.vercel.app/api?username=GrizX4051k&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_rank=false&number_format=long"
+    src="https://github-readme-stats-five-delta-54.vercel.app/api?username=GrizX4051k&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_rank=false&number_format=long&cache_seconds=60"
     alt="GitHub stats for GrizX4051k"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://github-readme-stats-five-delta-54.vercel.app/api/top-langs/?username=GrizX4051k&layout=compact&langs_count=6&theme=radical&hide=c,powershell,shell,typescript"
+    src="https://github-readme-stats-five-delta-54.vercel.app/api/top-langs/?username=GrizX4051k&layout=compact&langs_count=6&theme=radical&hide=c,powershell,shell,typescript&cache_seconds=60"
     alt="Top web languages"
   />
 </p>
@@ -19,7 +19,7 @@ This repo is my space for practicing and building **modern frontend** projects �
 <p align="center">
   <a href="https://github.com/GrizX4051k/Web-Development">
     <img
-      src="https://github-readme-stats-five-delta-54.vercel.app/api/pin/?username=GrizX4051k&repo=Web-Development&theme=radical&show_owner=true"
+      src="https://github-readme-stats-five-delta-54.vercel.app/api/pin/?username=GrizX4051k&repo=Web-Development&theme=radical&show_owner=true&cache_seconds=60"
       alt="Web-Development repo card"
     />
   </a>
@@ -173,6 +173,7 @@ If you’re browsing this as a recruiter or engineer:
 - You can open any folder and quickly understand what it is, why it exists, and how to run it.
 
 Suggestions, refactors, or ideas for new mini‑projects are always welcome – open an issue or PR and I’ll gladly take a look.
+
 
 
 
