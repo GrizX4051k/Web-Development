@@ -25,7 +25,6 @@ This repo is my space for practicing and building **modern frontend** projects â
   </a>
 </p>
 ---
-
 ## ðŸŽ¯ Goals
 
 - Sharpen my **UI and UX** skills with real, deployable projects.
