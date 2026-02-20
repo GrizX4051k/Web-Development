@@ -1,6 +1,6 @@
 ﻿# Web Frontend Projects
 
-This repo is my space for practicing and building **modern frontend** projects – from pure HTML/CSS to React and Next.js.
+This repo is my space for practicing and building **modern frontend** projects – from pure HTML/CSS to React and Next.js. Link to website - https://GrizX4051k.github.io/Web-Development/
 
 <p align="center">
   <img
